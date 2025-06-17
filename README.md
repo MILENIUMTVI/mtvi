@@ -21,7 +21,7 @@
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script>
     var video = document.getElementById('my-video');
-    var videoSrc = 'https://571561.gvideo.io/cmaf/571561_2313405/master.m3u8'; 
+    var videoSrc = 'https://571561.gvideo.io/cmaf/571561_2798196/master.m3u8; 
     if (Hls.isSupported()) {
       var hls = new Hls();
       hls.loadSource(videoSrc);
